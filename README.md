@@ -5,7 +5,7 @@ The verbose outputs in the notebook might be hard to sift through, so I've also 
 ## Annotation
 Since we just had the tweets and no labels of any sort, I chose to annotate the tweets with a topic using gpt-4o so that we'd have context for generation.
 
-## Experiment 1
+## Experiment 1: simple 'creativity' metric (1-5)
 Using a 'creativity' metric with DSPy, simply instructing it to rate the creativity of the generated tweets from 1 to 5. 
 Resulted in most generations being scored 3, making it hard to differentiate between methods. But these were the outputs:
 
@@ -21,7 +21,7 @@ Here are some example generations:
 | BootstrapFewShotWithRandomSearch | Learning and Experience | Never stop learning and seeking new experiences! They are the building blocks of growth and success. Embrace every opportunity to expand your horizons. 🌟📚 #LifelongLearning... | ✔️ [3] |
 | MIPROv2                          | Learning and Experience | Learning gives you the map, but experience is the journey. 🌍📚 Embrace both to navigate life’s challenges and grow continuously. #LifelongLearning #ExperienceMatters            | ✔️ [4] |
 
-## Experiment 2
+## Experiment 2: ensemble metric of binary relevant + engaging + creative + concise
 Used a more normalized metric - and ensemble of binary 'yes/no' between each of `relevant + engaging + creative + concise`.
 
 1) Uncompiled program: 96.25
@@ -31,3 +31,5 @@ Used a more normalized metric - and ensemble of binary 'yes/no' between each of 
 
 It didn't make sense to add examples for this since I realised the metrics across methods are not commensurate. Please feel free to load the program files (fewshotv2, fewshotwithrsv2, and mipro_optimizedv2 to quickly generate some examples and get a feel for them)
 
+## Experiment 3: ensemble metric of binary relevant + engaging + creative + concise, with RAG
+For the third experiment, I decided to set aside some of our dataset and use it for RAG instead of use the whole thing for dev.
