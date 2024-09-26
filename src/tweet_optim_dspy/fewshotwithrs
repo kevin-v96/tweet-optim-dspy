@@ -1,0 +1,19 @@
+{
+  "prog": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "topic": "Personal Finance",
+        "reasoning": "Personal finance is a crucial aspect of life that affects our ability to achieve financial stability and independence. By managing our money wisely, we can save for future goals, avoid debt, and ensure a secure financial future.",
+        "tweet": "Mastering personal finance is the key to financial freedom! Start by budgeting, saving, and investing wisely. Your future self will thank you. \ud83d\udcb0\ud83d\udcc8 #PersonalFinance #FinancialFreedom"
+      }
+    ],
+    "signature_instructions": "Given the fields `topic`, produce the fields `tweet`.",
+    "signature_prefix": "Tweet:",
+    "extended_signature_instructions": "Given the fields `topic`, produce the fields `tweet`.",
+    "extended_signature_prefix": "Tweet:"
+  }
+}

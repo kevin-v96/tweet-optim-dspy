@@ -1,0 +1,73 @@
+{
+  "prog": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "topic": "Personal Finance",
+        "reasoning": "Not supplied for this particular example.",
+        "tweet": "Your future self will thank you for every dollar you save today. Start small, stay consistent, and watch your financial freedom grow. \ud83d\udcb0\ud83d\udcc8 #PersonalFinance #FinancialFreedom"
+      },
+      {
+        "augmented": true,
+        "topic": "Support for Entrepreneurs",
+        "reasoning": "Not supplied for this particular example.",
+        "tweet": "Entrepreneurship is a rollercoaster, but you don't have to ride it alone. Seek out mentors, join communities, and never hesitate to ask for help. Your network is your net worth. \ud83d\udca1\ud83d\ude80 #Entrepreneurship #Support"
+      },
+      {
+        "augmented": true,
+        "topic": "Philosophy",
+        "reasoning": "Not supplied for this particular example.",
+        "tweet": "Philosophy isn't just about asking questions; it's about questioning the answers."
+      },
+      {
+        "augmented": true,
+        "topic": "Relationships",
+        "reasoning": "Not supplied for this particular example.",
+        "tweet": "The best relationships are built on mutual respect, trust, and a shared sense of humor. Invest in these, and you'll create a bond that can weather any storm."
+      },
+      {
+        "augmented": true,
+        "topic": "Philosophy, Mortality",
+        "reasoning": "Not supplied for this particular example.",
+        "tweet": "Reflecting on mortality can be a powerful reminder to live authentically and with purpose. Embrace each moment, for it is fleeting and precious."
+      },
+      {
+        "augmented": true,
+        "topic": "Talent and Excellence",
+        "reasoning": "Not supplied for this particular example.",
+        "tweet": "Talent gets you noticed. Excellence gets you remembered."
+      },
+      {
+        "augmented": true,
+        "topic": "Motivation",
+        "reasoning": "Motivation is a crucial element in achieving goals and overcoming obstacles. It drives individuals to take action, persist through challenges, and maintain focus on their objectives. Sharing motivational messages can inspire others to stay committed to their personal and professional growth.",
+        "tweet": "Remember, the only limit to your success is the one you set in your mind. Stay focused, stay driven, and keep pushing forward. You've got this! \ud83d\udcaa #Motivation #StayInspired"
+      },
+      {
+        "augmented": true,
+        "topic": "Self-improvement and meeting expectations",
+        "reasoning": "Not supplied for this particular example.",
+        "tweet": "Strive to be better than you were yesterday, not to meet someone else's expectations. Your journey is unique, and progress is personal."
+      },
+      {
+        "augmented": true,
+        "topic": "Gratitude and Support",
+        "reasoning": "Expressing gratitude and offering support can significantly improve relationships and overall well-being. It fosters a positive environment and encourages mutual respect and kindness.",
+        "tweet": "Take a moment today to thank someone who has supported you. A little gratitude goes a long way in strengthening bonds and spreading positivity. \ud83c\udf1f #Gratitude #Support"
+      },
+      {
+        "augmented": true,
+        "topic": "Self-Coaching and Personal Development",
+        "reasoning": "Not supplied for this particular example.",
+        "tweet": "You are your own best coach. Invest in yourself, set clear goals, and celebrate every small victory. Growth is a journey, not a destination. \ud83c\udf31 #SelfCoaching #PersonalDevelopment"
+      }
+    ],
+    "signature_instructions": "Given the fields `topic`, produce the fields `tweet`.",
+    "signature_prefix": "Tweet:",
+    "extended_signature_instructions": "Given the fields `topic`, produce the fields `tweet`.",
+    "extended_signature_prefix": "Tweet:"
+  }
+}

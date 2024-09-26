@@ -1,0 +1,33 @@
+{
+  "prog": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "tweet": "A message for friends of entrepreneurs:\n\nDon\u2019t buy them a present. \n\nBuy their product and leave a nice review or tell them why it wasn\u2019t good enough to deserve it (an even better gift).\n\nNo one needs more stuff. \nEveryone could use more support.",
+        "engagement": 979,
+        "topic": "Support for Entrepreneurs"
+      },
+      {
+        "tweet": "The biggest long term error I\u2019ve made was being short term focused.",
+        "engagement": 2630,
+        "topic": "Personal Growth and Reflection"
+      },
+      {
+        "tweet": "Just because it doesn\u2019t cost money doesn\u2019t mean it\u2019s free.",
+        "engagement": 2360,
+        "topic": "Value and Cost Perception"
+      },
+      {
+        "tweet": "Weird thought:\n\nWhat if Chat GPT is just the \u201cMySpace\u201d of AI, and the Facebooks of AI haven\u2019t even gotten in the game yet?",
+        "engagement": 2632,
+        "topic": "Future of AI technology"
+      }
+    ],
+    "signature_instructions": "Given the fields `topic`, produce the fields `tweet`.",
+    "signature_prefix": "Tweet:",
+    "extended_signature_instructions": "Given a `topic` related to self-improvement, motivation, or contemporary issues, generate a `reasoning` field that provides a logical and step-by-step explanation related to the topic. Use this reasoning to craft a concise and engaging `tweet` that utilizes a conversational tone, actionable insights, and may include anecdotes or inspirational quotes to enhance relatability and impact.",
+    "extended_signature_prefix": "Tweet:"
+  }
+}
