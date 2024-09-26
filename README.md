@@ -15,9 +15,9 @@ Resulted in most generations being scored 3, making it hard to differentiate bet
 4) MIPROv2: 330 `(num_candidates=7, init_temperature=0.5, max_bootstrapped_demos=3, max_labeled_demos=4, num_trials=10 minibatch_size=25, running time ~= 20 minutes)`
 
 Here are some example generations:
-| Type                             | Input                   | Output                                                                                                                                                                          | Score      |   |
-|----------------------------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|---|
-| BootstrapFewShot                 | Learning and Experience | Learning gives you knowledge, but experience gives you wisdom. Embrace both, and you'll navigate life with confidence and insight. 📚🌍 #Learning #Experience                     |   ✔️ [3]    |   |
-| BootstrapFewShotWithRandomSearch | Learning and Experience | Never stop learning and seeking new experiences! They are the building blocks of growth and success. Embrace every opportunity to expand your horizons. 🌟📚 #LifelongLearning... | ✔️ [3] |   |
-| MIPROv2                          | Learning and Experience | Learning gives you the map, but experience is the journey. 🌍📚 Embrace both to navigate life’s challenges and grow continuously. #LifelongLearning #ExperienceMatters            |  ✔️ [4]     |   |
+| Type                             | Input                   | Output                                                                                                                                                                          | Score |
+|----------------------------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
+| BootstrapFewShot                 | Learning and Experience | Learning gives you knowledge, but experience gives you wisdom. Embrace both, and you'll navigate life with confidence and insight. 📚🌍 #Learning #Experience                     | ✔️ [3] |
+| BootstrapFewShotWithRandomSearch | Learning and Experience | Never stop learning and seeking new experiences! They are the building blocks of growth and success. Embrace every opportunity to expand your horizons. 🌟📚 #LifelongLearning... | ✔️ [3] |
+| MIPROv2                          | Learning and Experience | Learning gives you the map, but experience is the journey. 🌍📚 Embrace both to navigate life’s challenges and grow continuously. #LifelongLearning #ExperienceMatters            | ✔️ [4] |
 
