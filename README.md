@@ -27,9 +27,13 @@ Used a more normalized metric - and ensemble of binary 'yes/no' between each of 
 1) Uncompiled program: 96.25
 2) BootstrapFewShot: 100 `(max_bootstrapped_demos=15, max_labeled_demos=5, trainset[:10], running time ~= 1 minute)`
 3) BootstrapFewShotWithRandomSearch: 95 `(max_labeled_demos = 1, max_bootstrapped_demos=1, num_candidate_programs=2, trainset[:20], running time ~= 2 minutes)`
-4) MIPROv2: 98.5 `(num_candidates=7, init_temperature=0.5, max_bootstrapped_demos=3, max_labeled_demos=4, num_trials=10 minibatch_size=25, running time ~= 30 minutes)`
+4) MIPROv2: 100 `(num_candidates=7, init_temperature=0.5, max_bootstrapped_demos=3, max_labeled_demos=4, num_trials=10 minibatch_size=25, running time ~= 30 minutes)`
 
-It didn't make sense to add examples for this since I realised the metrics across methods are not commensurate. Please feel free to load the program files (fewshotv2, fewshotwithrsv2, and mipro_optimizedv2 to quickly generate some examples and get a feel for them)
+| Type                             | Input               | Output                                                                                                                                          | Score   |
+|----------------------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| BootstrapFewShot                 | Everyday Life/Humor | Why did the scarecrow win an award? Because he was outstanding in his field! 🌾😄 Remember to find humor in everyday life—it makes the mundane... | ✔️ [1.0]   |
+| BootstrapFewShotWithRandomSearch | Everyday Life/Humor | Why do we park in driveways and drive on parkways? 🤔 Life is full of these little mysteries! Embrace the humor in everyday life—it makes... | ✔️ [1.0] |
+| MIPROv2                          | Everyday Life/Humor | Why do we park in driveways and drive on parkways? 🤔 Life is full of these little mysteries! Embrace the humor in everyday life—it makes...     | ✔️ [1.0] |
 
 ## Experiment 3: ensemble metric of binary relevant + engaging + creative + concise, with RAG
 For the third experiment, I decided to set aside some of our dataset and use it for RAG instead of use the whole thing for dev.
