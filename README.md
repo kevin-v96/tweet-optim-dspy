@@ -10,9 +10,9 @@ Using a 'creativity' metric with DSPy, simply instructing it to rate the creativ
 Resulted in most generations being scored 3, making it hard to differentiate between methods. But these were the outputs:
 
 1) Uncompiled program: 320
-2) BootstrapFewShot: 320 (max_bootstrapped_demos=25, max_labeled_demos=4, trainset[:10], running time ~= 3 minutes)
-3) BootstrapFewShotWithRandomSearch: 290 (max_labeled_demos = 1, max_bootstrapped_demos=1, num_candidate_programs=2, trainset[:20], running time ~= 10 minutes)
-4) MIPROv2: 330 (num_candidates=7, init_temperature=0.5, max_bootstrapped_demos=3, max_labeled_demos=4, num_trials=10 minibatch_size=25, running time ~= 20 minutes)
+2) BootstrapFewShot: 320 `(max_bootstrapped_demos=25, max_labeled_demos=4, trainset[:10], running time ~= 3 minutes)`
+3) BootstrapFewShotWithRandomSearch: 290 `(max_labeled_demos = 1, max_bootstrapped_demos=1, num_candidate_programs=2, trainset[:20], running time ~= 10 minutes)`
+4) MIPROv2: 330 `(num_candidates=7, init_temperature=0.5, max_bootstrapped_demos=3, max_labeled_demos=4, num_trials=10 minibatch_size=25, running time ~= 20 minutes)`
 
 Here are some example generations:
 | Type                             | Input                   | Output                                                                                                                                                                          | Score      |   |
