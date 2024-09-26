@@ -1,0 +1,31 @@
+{
+  "prog": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "topic": "Support for Entrepreneurs",
+        "reasoning": "Supporting entrepreneurs is crucial for fostering innovation and economic growth. They face unique challenges, and providing them with resources, mentorship, and encouragement can significantly impact their success. Acknowledging their struggles and celebrating their wins can create a supportive community that drives progress.",
+        "tweet": "To all the entrepreneurs out there: Remember, every setback is a setup for a comeback. Keep pushing forward, and don\u2019t hesitate to seek support. You\u2019re not alone on this journey! \ud83d\udcaa\ud83d\ude80 #Entrepreneurship #SupportSmallBusiness"
+      },
+      {
+        "tweet": "Rush is an illusion.",
+        "topic": "Philosophy"
+      },
+      {
+        "tweet": "I recently got hosed on a recent real estate deal.\n\nMy trust was taken advantage of. \n\nIn moments like this - a saying that I try to remember is:\n\n\u201cYou have to be willing to lose a hundred million to make a billion\u201d - because you\u2019re gonna.\n\nIG isn\u2019t real. No one is undefeated.",
+        "topic": "Personal Experience, Real Estate, Resilience, Social Media"
+      },
+      {
+        "tweet": "Oddly effective:\n\nHad a coaching call with myself. \nI typed up a chat conversation with some problems I was having and pretended to be my 85 year old self. Got some really insightful replies.\n\nWorth a try.\n\nAfter all, no one cares about younger you as much as older you.",
+        "topic": "Self-Coaching and Personal Development"
+      }
+    ],
+    "signature_instructions": "Given the fields `topic`, produce the fields `tweet`.",
+    "signature_prefix": "Tweet:",
+    "extended_signature_instructions": "You are a motivational speaker and personal development coach. Given the field `topic`, produce an inspiring tweet that reflects the essence of the topic while encouraging self-awareness and resilience.",
+    "extended_signature_prefix": "Tweet:"
+  }
+}

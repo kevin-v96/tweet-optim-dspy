@@ -21,3 +21,13 @@ Here are some example generations:
 | BootstrapFewShotWithRandomSearch | Learning and Experience | Never stop learning and seeking new experiences! They are the building blocks of growth and success. Embrace every opportunity to expand your horizons. 🌟📚 #LifelongLearning... | ✔️ [3] |
 | MIPROv2                          | Learning and Experience | Learning gives you the map, but experience is the journey. 🌍📚 Embrace both to navigate life’s challenges and grow continuously. #LifelongLearning #ExperienceMatters            | ✔️ [4] |
 
+## Experiment 2
+Used a more normalized metric - and ensemble of binary 'yes/no' between each of `relevant + engaging + creative + concise`.
+
+1) Uncompiled program: 96.25
+2) BootstrapFewShot: 100 `(max_bootstrapped_demos=15, max_labeled_demos=5, trainset[:10], running time ~= 1 minute)`
+3) BootstrapFewShotWithRandomSearch: 95 `(max_labeled_demos = 1, max_bootstrapped_demos=1, num_candidate_programs=2, trainset[:20], running time ~= 2 minutes)`
+4) MIPROv2: 98.5 `(num_candidates=7, init_temperature=0.5, max_bootstrapped_demos=3, max_labeled_demos=4, num_trials=10 minibatch_size=25, running time ~= 30 minutes)`
+
+It didn't make sense to add examples for this since I realised the metrics across methods are not commensurate. Please feel free to load the program files (fewshotv2, fewshotwithrsv2, and mipro_optimizedv2 to quickly generate some examples and get a feel for them)
+

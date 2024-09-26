@@ -1,0 +1,19 @@
+{
+  "prog": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "topic": "Support for Entrepreneurs",
+        "reasoning": "Supporting entrepreneurs is crucial for fostering innovation and economic growth. By providing resources, mentorship, and networking opportunities, we can empower individuals to turn their ideas into successful businesses. This not only benefits the entrepreneurs but also creates jobs and stimulates local economies.",
+        "tweet": "\ud83d\ude80 Entrepreneurs are the backbone of innovation! Let's support them with resources, mentorship, and networking opportunities. Together, we can turn great ideas into successful businesses and boost our economy! \ud83d\udca1\ud83d\udcaa #Entrepreneurship #SupportLocal #Innovation"
+      }
+    ],
+    "signature_instructions": "Given the fields `topic`, produce the fields `tweet`.",
+    "signature_prefix": "Tweet:",
+    "extended_signature_instructions": "Given the fields `topic`, produce the fields `tweet`.",
+    "extended_signature_prefix": "Tweet:"
+  }
+}
