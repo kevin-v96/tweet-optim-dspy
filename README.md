@@ -43,5 +43,11 @@ For the third experiment, I decided to set aside some of our dataset and use it 
 3) BootstrapFewShotWithRandomSearch: 95 `(max_labeled_demos = 2, max_bootstrapped_demos=2, num_candidate_programs=3, trainset[:20], running time ~= 2 minutes)`
 4) MIPROv2: 91.2 `(max_bootstrapped_demos=3, max_labeled_demos=4, num_trials=5, minibatch=True, minibatch_size=5,minibatch_full_eval_steps=2, running time ~= 15 minutes)`
 
+| Type                             | Input      | Example                                     | Output                                                                                                                                                                        | Score   |
+|----------------------------------|------------|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| BootstrapFewShot                 | Motivation | You can give up tomorrow.  Today you fight. | Motivation can come from unexpected places—pain, fear, or even shame. Use what you’ve got! And remember, every small win matters. Imagine those views as a...                 | ✔️ [1.0] |
+| BootstrapFewShotWithRandomSearch | Motivation | You can give up tomorrow.  Today you fight. | Motivation doesn't always come from passion; sometimes it’s pain, fear, or anger that drives us. Embrace what you have! Visualize your small wins as a... | ✔️ [1.0] |
+| MIPROv2                          | Motivation | You can give up tomorrow.  Today you fight. | Motivation doesn't always come from passion. Sometimes, it's pain, fear, or even shame that drives us. Remember, every small win counts! Visualize your audience—93 views?... | ✔️ [1.0] |
+
 ## Experiment 4: Second-order optimization, or metric of metric
 For the fourth experiment, I manually defined some examples of how I would like the evaluator to work, then compiled the metric as a DSPy program so that it works more in line with what I expect from it.
