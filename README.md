@@ -35,6 +35,7 @@ But as we can see, most of the scores for creativity turn out to be 3 - this was
 - [x] Dividing the devset into val and test sets to keep the test set for final testing and preventing data leakage
 - [ ] Try an agentic workflow (either with DSPy, with LangGraph/other framework, or a combination of the two) with teacher-student roleplay to see if that improves the generations
 - [ ] Evaluate the RAG part with RAGAS
+- [ ] Add low-rank adapters or Persona-plug
 
 ## Experiment 2: ensemble metric of binary relevant + engaging + creative + concise
 Used a more normalized metric - and ensemble of binary 'yes/no' between each of `relevant + engaging + creative + concise`.
