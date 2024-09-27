@@ -21,6 +21,19 @@ Here are some example generations:
 | BootstrapFewShotWithRandomSearch | Learning and Experience | Never stop learning and seeking new experiences! They are the building blocks of growth and success. Embrace every opportunity to expand your horizons. 🌟📚 #LifelongLearning... | ✔️ [3] |
 | MIPROv2                          | Learning and Experience | Learning gives you the map, but experience is the journey. 🌍📚 Embrace both to navigate life’s challenges and grow continuously. #LifelongLearning #ExperienceMatters            | ✔️ [4] |
 
+MIPROv2 did increase our score from 320 -> 330.
+
+But as we can see, most of the scores for creativity turn out to be 3 - this was a problem. The LLM judge is probably having a problem defining 'creativity', especially with topics as 'dull' as business. We need a multitude of 'yes/no' metrics and we need to ensemble them to get a good sense. Plus, it seems like the tweets generated are really long. We need a conciseness metric as well and a limit on the characters generated. It's possible the LLM has issues because we're generating + judging with the same LM, whereas the way it's generally done is a more capable model judging the generation of a smaller/less capable model. Let's try a few changes and see whether they result in improvement. The changes that result in improvement are marked with ✅:
+
+- [x] Changing the metric to encompass more measures of a tweet's 'quality' ✅
+- [x] using 4o-mini for generation and 4o for judging ✅
+- [x] Playing around with the hyperparameters of DSPy optimizers a bit more ✅
+- [x] Manually checking a few examples of generation ✅
+- [x] Using a DSPy program that we compile to judge the quality of tweets as a metric. i.e., something like second-order optimization
+- [x] Using the tweets dataset for RAG since we can't train on the whole thing. (due to time constraints, Rate limit, etc.) ✅
+- [ ] Trying a different form of annotation/labels than just topics
+- [x] Dividing the devset into val and test sets to keep the test set for final testing and preventing data leakage
+
 ## Experiment 2: ensemble metric of binary relevant + engaging + creative + concise
 Used a more normalized metric - and ensemble of binary 'yes/no' between each of `relevant + engaging + creative + concise`.
 
