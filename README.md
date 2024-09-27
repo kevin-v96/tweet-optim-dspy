@@ -74,3 +74,11 @@ For the fourth experiment, I manually defined some examples of how I would like 
 |----------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
 | BootstrapFewShot                 | Diet and Weight Management | For those who ask how I eat desert every night and don’t get fat…  Answer: I eat less during the day. | In diet and weight management, there’s no finish line—only a journey. It’s not about “winning” but about maintaining healthy habits. Master the middle, and the... | ✔️ [1.0] |
 | BootstrapFewShotWithRandomSearch | Diet and Weight Management | For those who ask how I eat desert every night and don’t get fat…  Answer: I eat less during the day. | In diet and weight management, there’s no finish line—only a journey. It’s not about “winning” but about maintaining healthy habits. Master the middle, and the... | ✔️ [1.0] |
+
+## Comparison over experiments
+| Experiment vs. Method                                   | Uncompiled | BootstrapFewShot | BootstrapFewShotWithRandomSearch | MIPROv2 |
+|---------------------------------------------------------|------------|------------------|----------------------------------|---------|
+| 1. 'Creativity' metric on 1-5 scale                     | 320        | 320              | 290                              | 330     |
+| 2. (relevant + engaging + creative + concise) / 4       | 96.25      | 100              | 95                               | 100     |
+| 3. RAG + (relevant + engaging + creative + concise) / 4 | 91.2       | 99.2             |                               95 |    91.2 |
+| 4. Optimizing the optimizer                             | 94.4       | 94.4             | 94.4                             | N/A     |
