@@ -5,6 +5,11 @@ The verbose outputs in the notebook might be hard to sift through, so I've also 
 ## Annotation
 Since we just had the tweets and no labels of any sort, I chose to annotate the tweets with a topic using gpt-4o so that we'd have context for generation.
 
+## Dataset
+I produced two dataset pickle files during this task - both are in the `src/tweet_optim_sdpy/data` folder:
+1) `annotated_dataset.pkl`: Dataset of tweets with topic annotation
+2) `metric_trainset.pkl`: Manually created dataset for optimization of optimizer
+
 ## Experiment 1: simple 'creativity' metric (1-5)
 Using a 'creativity' metric with DSPy, simply instructing it to rate the creativity of the generated tweets from 1 to 5. 
 Resulted in most generations being scored 3, making it hard to differentiate between methods. But these were the outputs:
@@ -38,6 +43,7 @@ But as we can see, most of the scores for creativity turn out to be 3 - this was
 - [ ] Add low-rank adapters or Persona-plug
 - [ ] Use outlines/BootstrapFinetune/structured output and manipulate decoding
 - [ ] Use Weave or LangSmith for tracing and charting
+- [ ] Try other DSPy modules (ReAct, ChainOfThought) against the current ones
 
 ## Experiment 2: ensemble metric of binary relevant + engaging + creative + concise
 Used a more normalized metric - and ensemble of binary 'yes/no' between each of `relevant + engaging + creative + concise`.
