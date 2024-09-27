@@ -33,6 +33,8 @@ But as we can see, most of the scores for creativity turn out to be 3 - this was
 - [x] Using the tweets dataset for RAG since we can't train on the whole thing. (due to time constraints, Rate limit, etc.) ✅
 - [ ] Trying a different form of annotation/labels than just topics
 - [x] Dividing the devset into val and test sets to keep the test set for final testing and preventing data leakage
+- [ ] Try an agentic workflow (either with DSPy, with LangGraph/other framework, or a combination of the two) with teacher-student roleplay to see if that improves the generations
+- [ ] Evaluate the RAG part with RAGAS
 
 ## Experiment 2: ensemble metric of binary relevant + engaging + creative + concise
 Used a more normalized metric - and ensemble of binary 'yes/no' between each of `relevant + engaging + creative + concise`.
