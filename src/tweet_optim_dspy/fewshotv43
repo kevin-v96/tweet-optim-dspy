@@ -1,0 +1,126 @@
+{
+  "retrieve": {
+    "k": 3
+  },
+  "generate_tweet": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": [
+          "A lot of new entrepreneurs waste a lot of time trying to figure out how to \u2018optimize\u2019 everything about their days. I tend to see it as procrastination masquerading as productivity. The faster you confront the work the faster it gets done.",
+          "You can tell how much money an entrepreneur makes by looking at how they spend their time. Your calendar is your budget for your most limited resource.",
+          "Easy productivity hack:\n\nInstead of spending time \u201cgetting in the mood to work\u201d\u2026just start working. Confront the work."
+        ],
+        "topic": "Workforce Management",
+        "reasoning": "The context emphasizes the importance of taking immediate action rather than overthinking or optimizing every aspect of productivity. It suggests that true productivity comes from confronting tasks directly and managing time effectively, which is crucial in workforce management.",
+        "tweet": "Stop optimizing and start doing! \ud83d\ude80 The best productivity hack is to confront your work head-on. Your calendar reflects your priorities\u2014make every minute count! #WorkforceManagement #ProductivityTips"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "If climate change permanently alters California\u2019s weather\u2026it\u2019ll be like that hot girl at your high school reunion who put on 50lbs but still wants everyone to pretend she\u2019s hot\u2026\n\n\u2026but instead she\u2019s an out of shape divorcee with \u2018issues\u2019 looking to lure the next guy to drain.",
+          "The world belongs to the rare few who can control their impulses.",
+          "Grow so big your haters shrink into irrelevance. Instead of putting them down, make yourself bigger. A pebble can kill an ant but not an elephant."
+        ],
+        "topic": "Kim Kardashian",
+        "reasoning": "The context provided includes a humorous analogy about climate change and a high school reunion, which can be tied to public figures like Kim Kardashian who often face scrutiny and changing perceptions. The other quotes emphasize self-control, growth, and overcoming negativity, which can relate to Kim's journey in the public eye and her ability to rise above criticism.",
+        "tweet": "Kim Kardashian is like the hot girl at the reunion\u2014everyone has opinions, but she keeps evolving. Remember, the world belongs to those who control their impulses and grow beyond the noise. \ud83c\udf1f #Resilience #GrowthMindset"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "It\u2019s odd when I hear entrepreneurs say \u201cword of mouth is dead\u201d in an age where transparency and broadcasting a message in media has never been cheaper or easier.",
+          "Time will ultimately create brands that eat up marketshare because of good reputation. There will always be room for minnows to sell on \u201c1-1 attention\u201d. But they then have the same burdens of scaling delivery while maintaining quality.",
+          "Grow so big your haters shrink into irrelevance. Instead of putting them down, make yourself bigger. A pebble can kill an ant but not an elephant."
+        ],
+        "topic": "Resilience and Public Perception",
+        "reasoning": "The context highlights the importance of reputation and resilience in entrepreneurship. It emphasizes that despite claims of \"word of mouth being dead,\" the power of transparency and personal connections remains strong. Building a strong brand through positive reputation can overshadow negativity, and focusing on growth can diminish the impact of critics.",
+        "tweet": "In a world where transparency is key, \"word of mouth\" is far from dead. Build your brand on reputation and let your success overshadow the haters. Grow so big that their negativity becomes irrelevant! \ud83d\udc18\ud83d\udcaa #Resilience #Entrepreneurship"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "In 2011, I was worried about the macro-environment and my chances of getting a job. A mentor pulled me aside and told me something that stuck. And whenever I get worried about stuff outside of my control, I repeat it to myself:\n\n\u201cBe too good to fail.\u201d",
+          "The best salesmen study everything they can about the prospect not the product.",
+          "Patience, honesty, leadership, consistency, focus. They aren\u2019t traits, they\u2019re skills. We stop teaching them to children then we\u2019re surprised adults don\u2019t have them. If it can be learned, it is a skill."
+        ],
+        "topic": "Career Development",
+        "reasoning": "The context emphasizes the importance of personal development and skills in career advancement. It highlights the idea that being exceptional in your field can help you navigate uncertainties, and that essential traits like patience and leadership can be cultivated as skills rather than innate traits. This perspective can inspire individuals to focus on continuous improvement and adaptability in their careers.",
+        "tweet": "In a world full of uncertainties, remember: \u201cBe too good to fail.\u201d Focus on developing skills like patience, honesty, and leadership. They\u2019re not just traits; they can be learned! #CareerDevelopment #PersonalGrowth"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "Entrepreneurship is less about being really good at anything and more about being good enough at everything.",
+          "Entrepreneurship isn\u2019t about being great at a few things but being good enough at everything.",
+          "A lot of new entrepreneurs waste a lot of time trying to figure out how to \u2018optimize\u2019 everything about their days. I tend to see it as procrastination masquerading as productivity. The faster you confront the work the faster it gets done."
+        ],
+        "topic": "Entrepreneurship and Personal Development",
+        "reasoning": "The context emphasizes that entrepreneurship is not about mastering a few skills but rather being competent in a variety of areas. It also highlights the tendency of new entrepreneurs to overthink and optimize their processes, which can lead to procrastination instead of productivity. This suggests that taking action and being versatile is key to success in entrepreneurship.",
+        "tweet": "Entrepreneurship isn\u2019t about being the best at a few things; it\u2019s about being good enough at many. Don\u2019t get lost in optimization\u2014take action! The faster you confront the work, the quicker it gets done. #Entrepreneurship #PersonalDevelopment"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "You\u2019re not passionate about anything enough to get you \u2018motivated\u2019. So? You have other things that motivate you: pain, fear, shame, anger, etc. First rule of entrepreneurship:\nUse what you\u2019ve got.",
+          "The first step to achieving a massive dream is conquering tiny impulses.",
+          "Content hack that helped me stay motivated in the early days with tiny numbers:\n\nI imagined a room with the amount of people I got in views or impressions. So if a video for 93 views. I\u2019d think \u201cman, 93 people in a room would be a great audience!\u201d\n\nIt kept it feeling impactful."
+        ],
+        "topic": "Motivation",
+        "reasoning": "The context highlights that motivation can stem from various sources, including negative emotions like pain and fear, rather than just passion. It also emphasizes the importance of perspective in viewing small achievements as significant, which can help maintain motivation in the early stages of a journey.",
+        "tweet": "Motivation doesn\u2019t always come from passion. Sometimes it\u2019s pain, fear, or even shame. Use what you\u2019ve got! And remember, every small win counts\u2014imagine those views as a packed room. 93 people? That\u2019s a great audience! \ud83c\udfa4\ud83d\udcaa #Motivation #Entrepreneurship"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "Patience, honesty, leadership, consistency, focus. They aren\u2019t traits, they\u2019re skills. We stop teaching them to children then we\u2019re surprised adults don\u2019t have them. If it can be learned, it is a skill.",
+          "It\u2019s interesting that society today is all about self love. And most ancient religions are about minimizing self.",
+          "My favorite definition of happiness comes from @DrKashey:\n\nDoing things you like with people you like. Simplifies a very complex topic into a few words. Pro tip: \u201cpeople you like\u201d includes you."
+        ],
+        "topic": "Human Behavior and Psychology",
+        "reasoning": "The context highlights the importance of teaching essential skills like patience, honesty, and leadership to children, which are often overlooked in modern society. It also touches on the contrast between self-love and ancient teachings that emphasize humility. Additionally, it presents a simple yet profound definition of happiness that emphasizes relationships and self-acceptance. These insights can be tied together to reflect on how human behavior and psychology are shaped by both learned skills and societal values.",
+        "tweet": "Human behavior is shaped by what we teach and value. Patience, honesty, and leadership are skills we must nurture in children. In a world obsessed with self-love, let\u2019s not forget the wisdom of humility. Happiness? It\u2019s doing what you love with those you cherish, including yourself."
+      },
+      {
+        "augmented": true,
+        "context": [
+          "The best entrepreneurs don\u2019t do business to make money. They make money to do business.",
+          "You don\u2019t \u201cwin\u201d at business. The point is to stay in business and keep the game going.",
+          "Advice for people who sell \u201cappointment setting\u201d:\n\nYou see appts as your product when you could make more money seeing your business as the marketing dept for a business 10x your size. Partner with the most valuable business you set appointments for. Then 100x your value."
+        ],
+        "topic": "Business Strategy",
+        "reasoning": "The context emphasizes that successful entrepreneurs focus on the long-term sustainability of their business rather than just immediate profits. It also highlights the importance of strategic partnerships and viewing one's role in a broader context to maximize value. This perspective can reshape how businesses approach their strategies and partnerships.",
+        "tweet": "Great entrepreneurs don\u2019t just chase profits; they build sustainable businesses. Remember, it\u2019s not about winning but staying in the game. Partner wisely and think big\u2014your value can multiply! #BusinessStrategy #Entrepreneurship"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "The best entrepreneurs don\u2019t do business to make money. They make money to do business.",
+          "You don\u2019t \u201cwin\u201d at business. The point is to stay in business and keep the game going.",
+          "The irony is, if you set out to beat corporate America with your business. And you do really well. You become corporate America."
+        ],
+        "topic": "Business Ethics",
+        "reasoning": "The context highlights the philosophy of entrepreneurship, emphasizing that the true essence of business is not merely profit-making but sustaining and evolving the business itself. It also points out the paradox of success in entrepreneurship, where striving to challenge corporate norms can lead to becoming part of the very system one aimed to disrupt. This reflects a deeper ethical consideration in business practices.",
+        "tweet": "True entrepreneurs don\u2019t just chase profits; they chase purpose. Remember, the goal isn\u2019t to \u201cwin\u201d but to keep the game alive. Ironically, in trying to beat corporate America, you might just become it. #BusinessEthics #Entrepreneurship"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "In the money game, everyone is an investor (rich and poor alike). We ALL trade our resources for a return. The sooner people realize they\u2019re investors, the faster they can start measuring returns. And that\u2019s the first step to improving them.",
+          "In 2011, I was worried about the macro-environment and my chances of getting a job. A mentor pulled me aside and told me something that stuck. And whenever I get worried about stuff outside of my control, I repeat it to myself:\n\n\u201cBe too good to fail.\u201d",
+          "The rarer you are, the rarer the people are who share your perspective. In this way, the greater your success the fewer people you can share it with."
+        ],
+        "topic": "Success and Wealth",
+        "reasoning": "The context emphasizes the importance of viewing oneself as an investor in life, focusing on personal development and the value of unique perspectives in achieving success. It highlights that everyone, regardless of their financial status, is trading resources for returns, and that being exceptional can lead to greater success, albeit with fewer people to share it with. This can inspire a mindset shift towards proactive personal growth and resilience in the face of challenges.",
+        "tweet": "In the game of life, we\u2019re all investors trading resources for returns. Remember: \u201cBe too good to fail.\u201d Your unique perspective is your greatest asset\u2014embrace it and watch your success grow! #Success #Wealth #PersonalDevelopment"
+      }
+    ],
+    "signature_instructions": "Generate a tweet based on the context",
+    "signature_prefix": "Tweet:",
+    "extended_signature_instructions": "Generate a tweet based on the context",
+    "extended_signature_prefix": "Tweet:"
+  }
+}
