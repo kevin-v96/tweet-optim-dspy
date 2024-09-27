@@ -1,0 +1,38 @@
+{
+  "retrieve": {
+    "k": 3
+  },
+  "generate_tweet": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": [
+          "Competitors can now copy your tone and language with AI, but they can never copy your story. Your story = Your competitor advantage",
+          "There are two ways to guarantee people stay faithful to you:\n1) Find people with no other option\n2) Stay their best option",
+          "Patience, honesty, leadership, consistency, focus. They aren\u2019t traits, they\u2019re skills. We stop teaching them to children then we\u2019re surprised adults don\u2019t have them. If it can be learned, it is a skill."
+        ],
+        "topic": "Authenticity and Integrity",
+        "reasoning": "Authenticity and integrity are crucial in a world where technology can replicate many aspects of our communication and branding. Your unique story and the values you embody are what truly set you apart from competitors. Additionally, fostering loyalty requires a commitment to being the best option for others, while also recognizing that essential traits like patience and honesty can be developed as skills.",
+        "tweet": "In a world of AI mimicry, your story is your true competitive edge. Authenticity and integrity aren't just traits; they're skills we must nurture. Be the best option for others and watch loyalty flourish! #Authenticity #Integrity #Leadership"
+      },
+      {
+        "augmented": true,
+        "context": [
+          "If everyone saw learning skills as a real investment, more would do it. 1) They go up in value\n2) No one can take them from you \n3) They cant be taxed\n4) They compound all other investments\n5) Great price vs. lifelong returns\n\nDouble down on the one asset you hold forever - you.",
+          "In the money game, everyone is an investor (rich and poor alike). We ALL trade our resources for a return. The sooner people realize they\u2019re investors, the faster they can start measuring returns. And that\u2019s the first step to improving them.",
+          "My highest return investments in order:\n1) My education \n2) My business\n3) Other people\u2019s businesses\/assets\n\nMax out first two before moving to 3."
+        ],
+        "topic": "Investment Strategy",
+        "reasoning": "Investing in oneself through education and personal development yields the highest returns, as these skills are invaluable, non-taxable, and compound over time. Recognizing that everyone is an investor in their own way can shift perspectives on resource allocation and returns.",
+        "tweet": "Invest in the one asset you hold forever - YOU! Education and personal growth offer the highest returns. Remember, we\u2019re all investors in this game. Max out your skills before diversifying! #InvestmentStrategy #PersonalDevelopment"
+      }
+    ],
+    "signature_instructions": "Generate a tweet based on the context",
+    "signature_prefix": "Tweet:",
+    "extended_signature_instructions": "Generate a tweet based on the context",
+    "extended_signature_prefix": "Tweet:"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "retrieve": {
+    "k": 3
+  },
+  "generate_tweet": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "Generate a tweet based on the context",
+    "signature_prefix": "Tweet:",
+    "extended_signature_instructions": "Generate a tweet based on the context",
+    "extended_signature_prefix": "Tweet:"
+  }
+}

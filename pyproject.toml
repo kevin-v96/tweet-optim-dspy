@@ -10,6 +10,8 @@ dependencies = [
     "chromadb>=0.5.9",
     "dspy-ai>=2.5.0",
     "ipykernel>=6.29.5",
+    "pinecone>=5.3.1",
+    "weaviate-client==4.8.1",
 ]
 
 [build-system]
