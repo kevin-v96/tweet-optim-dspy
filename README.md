@@ -1,6 +1,6 @@
 Using DSPy to optimize some custom LLM-judged metrics on auto-generated tweets.
 
-The verbose outputs in the notebook might be hard to sift through, so I've also put the instrumental code in main.py (you might need to move around some code to run it) and am putting the results here:
+The verbose outputs in the notebook might be hard to sift through, so I've also put the instrumental code in main.py (you might need to move around some code to run it since it's just the notebook exported as a script for easy access to the code) and am putting the results here:
 
 ## Annotation
 Since we just had the tweets and no labels of any sort, I chose to annotate the tweets with a topic using gpt-4o so that we'd have context for generation.
